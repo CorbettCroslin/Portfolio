@@ -97,25 +97,25 @@ h4{
     font-size: 10px;
 }
 
+
 /* Navbar Button */
+
 
 #header .toggle-button{
     background: rgba(13, 5, 61, 0.733);
     color: white;
     top: 25px;
-    right: 10px;
+    right: 20px;
     border: 1px solid var(--color-border);
     position: fixed;
-    z-index: 99999 !important;
+    /* z-index: 99999 !important; */
     height: 40px !important;
     font-weight: bolder;
-
 }
 
 .toggle-left{
-    left: 0 !important;
+    right: 20px !important;
     width: 1000px !important;
-    
 }
 
 .bi-list{
@@ -165,22 +165,13 @@ h1{
 	margin: 0 px 0;
     font-family:'Gemunu Libre', sans-serif;
 }
+
 .page-vector{
     margin-top: 40px !important;
     margin-bottom: 40px !important;
     font-size: 0px;
     color: none;
 }
-
-/* button{
-    position: relative;
-    z-index: 9999;
-} */
-
-/* span{
-    position: relative;
-    z-index: 9999;
-} */
 
 
 /* Home Header banner */
@@ -194,6 +185,7 @@ h1{
     position: relative;
     border-radius: .3rem !important;
 }
+
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
@@ -201,7 +193,8 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.site-banner .banner-area .author .author-img{
+
+#author-img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -209,8 +202,10 @@ h1{
     background: url(./img/ProfilePicAndVectors/profilePic.png) no-repeat;
     background-size: 125%;
     background-position: 40% 0;
+    position: relative;
     z-index: -1;
 }
+
 #author-img-over{
     width: 300px;
     height: 300px;
@@ -222,37 +217,44 @@ h1{
     top: 250px;
     position: relative;
     z-index: 999;
- }
-.main-quote{
+}
+
+#main-quote{
     color: #ff35de;
     text-shadow: 2px 2px #000;
-    max-width: 700px;
-    text-justify:distribute;
     flex-wrap: wrap;
-    margin-top: 5; 
-    font-size: 15;
+    margin-top: 5px; 
+    font-size: 15px;
+    position: relative;
 }
+
 .main-text{
     width: 800px;
 }
-.main-name{
+
+#main-name{
     text-shadow: 2px 2px #000;
+    position: relative
 }
+
 .container-margin{
     margin-top: 80px;
 }
+
 .bottom-container-margin{
     margin-bottom: 60px;
 }
+
 .main-banner-h4{
     margin-top: 20px;
     margin-bottom: 35px;
 }
 
-.home-sub{
+#home-sub{
     display: flex;
     flex-wrap: wrap !important;
     justify-content: space-between;
+    text-align: center;
 }
 
 
@@ -269,14 +271,17 @@ h1{
     width: 100%;
     border-radius: .3rem !important;
 }
+
 .skills-sub{
     display: flex;
     flex-wrap: wrap !important;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
 .home-icon-margin{
     margin: 10px 55px 10px 55px;
 }
+
 .home-icon-size{
     width: 125px !important;
     height: 125px !important;
@@ -291,6 +296,7 @@ h1{
     flex-wrap: wrap !important;
     justify-content:space-evenly;
 }
+
 .project-bg{
     background-image: url(./img/wallpaper/QTWM79C.jpg);
     background-size: 150%;
@@ -300,42 +306,56 @@ h1{
     height: 100% ;
     width: 100%;
 }
+
 .card-prop{
     background-color: #444444a9;
     border-color: #2c2c2c;
     border-width: 4px;
     border-radius: 4px;
 }
-.cardWidth{
+#card-width1, 
+#card-width2, 
+#card-width3, 
+#card-width4 {
     width: 342px !important;
-    margin: 25px 15px 25px 15px;
+    margin: 25px 15px 25px 15px !important;
+    height: 350px !important
 }
-#card-img{
-    border-color: #2c2c2c;
-    border-width: 4px;
-    border-radius: 4px;
-}
-.card-img-top{ 
+
+#card-img-top1, 
+#card-img-top2, 
+#card-img-top3, 
+#card-img-top4 { 
     border-color: #2c2c2c !important;
     border-width: 6px  !important;
     border-radius: 4px !important;
     width: 100% !important;
     height: 160px !important;
 }
-.project-info{
+
+#project-info1,
+#project-info2, 
+#project-info3, 
+#project-info4 {
     max-width: 250px !important;
     max-height: 50px !important;
+    margin-left: 16px !important;
+    padding: 0 !important;
 }
+
 .cust-button{
     background-color: #ff35dd;
     position: relative;
 }
+
 .btn-close{
    background-color: rgb(49, 49, 49);
 }
+
 .btn-live{
     background-color: #ff35dd;
 }
+
 h5{
     font-size: 30px !important;
     color: #ff35de;
@@ -343,35 +363,13 @@ h5{
     text-shadow: 2px 2px #444444d0;;
 }
 
-
-/* Project Modals */
-
-
-.modal-body{
-    height: auto !important;
-    width: auto !important;
-}
-.modal-footer{
-    text-align: left !important;
-    justify-content:space-between !important;
-}
-.modal-img{
-    height: 300px;
-    width: 450px;
-}
-.modal-header{
-    margin: 3px !important;
-    padding: 3px !important;
-}
-.projects-header{
-    margin-bottom: 0 !important;
-}
 .project-disclaimer{
     font-size: 22px !important;
     font-family: 'Gemunu Libre', sans-serif;
     text-shadow: 2px 2px #000;
     color: #ff7676;
 }
+
 .project-disclaimer-bottom{
     font-size: 18px !important;
     font-family: 'Gemunu Libre', sans-serif;
@@ -529,7 +527,7 @@ h5{
 }
 
 .contact-blur-bg{
-    background-color: #50080d9a;
+    background-color: #3f0509be;
     border-color: #2c2c2c3a !important;
     border-radius: 15%;
     border-width: 4px !important;
@@ -538,10 +536,12 @@ h5{
     height: 300px;
     padding-top: 30px;
     margin: 0 !important;
-    
 }
-
+.contact-text{
+    font-size: 25px;
+}
 .emailfont{
+    font-size: 18px;
     z-index: 3 !important;
     position: relative;
 }
@@ -559,30 +559,149 @@ h5{
 }
 
 
-/* Media */
 
-/* Home Banner */
-@media screen and (min-width: 768px){
-    .toggle-button{
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+
+    #site-main{
+        width: auto;
+    }
+
+    /* Home/Banner */
+    .site-banner .banner-area .author{
+        left: 0 !important;
+    }
+    #quote-contain{
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }
+    #main-quote{
+        line-height: 30px;
+        width:auto !important;
+        height: auto;
+        margin-top: 10px; 
+        font-size: 25px;
+        margin: 0px !important;
+        right: -55% !important;
+    }
+    #author-img-over{
+        background-position: 40% 0;
+        top: 285px;
+        right: -55% !important;
+    }
+    #author-img{
+        background-position: 40% 0;
+        top: 50px;
+        right: -55% !important;
+    }
+    #main-name{
+        right: -55% !important;
+        margin-top: 30px;
+    }
+
+    /* skills */
+
+    .home-icon-margin{
+    
+     margin: 10px 10px 10px 10px !important;
+    }
+    .home-icon-size{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    /* Project - Modals */
+    .modal-body{
+        height: auto !important;
+        width: 45% !important;
+    }
+    .modal-img{
+        height: 300px;
+        width: 320px;
+    }
+    .modal-dialog{
+        height: 450px !important;
+        width: 50% !important;
+    }
+    /* about */
+    .quote-wrapper {
+        width: 360px;
+        height: 610px;
+    }
+    .text p {
+        font-size: 24px;
+        text-align: center;
+    }
+    /* contact */
+    .contact-blur-bg{
+        width: 360px !important;
+        height: 300px;
+        padding-top: 30px;
+    }
+    .contact-text{
+        font-size: 20px;
+        text-shadow: 2px 2px #000;
+    }
+    .emailfont{
+        font-size: 13px !important;
+        text-shadow: 1px 1px #000;
+    }
+    .email-link-icon{
         display: none;
+    }
+    /* Page Vector */
+
+    .page-vector{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    /* Navbar Button */
+
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 577px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* About - Text Circle */
+    .quote-wrapper {
+        width: 700px;
+        height: 500px;
+    }
+
+    .quote-wrapper::before {
+        font-size: 0px;
+    }
+
+    .text p {
+        font-size: 29px;
+    }
+    
+    /* Home Banner */
+
+    .toggle-button{
+        display: none !important;
     }
     #header{
         z-index:0;
     }
 }
 
-/* About - Text Circle */
-@media (min-width: 850px) {
-    .quote-wrapper {
-      width: 700px;
-      height: 500px;
-    }
-  
-    .quote-wrapper::before {
-      font-size: 0px;
-    }
-  
-    .text p {
-      font-size: 29px;
-    }
-  }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
