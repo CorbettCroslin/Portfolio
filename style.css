@@ -600,7 +600,7 @@ h5{
 
     .home-icon-margin{
     
-     margin: 10px 10px 10px 10px !important;
+     margin: 10px 25px 10px 25px !important;
     }
     .home-icon-size{
         width: 100px !important;
@@ -633,7 +633,7 @@ h5{
         height: 610px;
     }
     .text p {
-        font-size: 24px;
+        font-size: 23px !important;
         text-align: center;
     }
 
@@ -751,7 +751,7 @@ h5{
         
     }
     .text p {
-        font-size: 21px;
+        font-size: 21px !important;
         text-align: center;
     }
 
@@ -786,6 +786,7 @@ h5{
         height: 280px;
         padding-top: 30px;
         margin: 0 !important;
+        margin-bottom: 50px !important;
     }
 
     /* Page Vector */
@@ -795,25 +796,38 @@ h5{
         margin-top: 20px !important;
         margin-bottom: 20px !important;
     }
+    .contact-bg{
+        height: auto;
+    }
     
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Medium devices (tablets, 768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
 
-    /* NavBar */
+        /* NavBar */
 
-    /* .toggle-button{
-        display: none !important;
+    .toggle-button{
+            display: none !important;
     }
     #header{
-        z-index:0;
-    } */
+            z-index:0;
+    }
+    #site-main{
+            width: auto;
+        
+    }
 
+    /* Skills */
+
+    .home-icon-margin{
+        margin: 10px 20px 10px 20px !important;
+    }
+        
     /* About - Text Circle */
     .quote-wrapper {
         width: 700px;
-        height: 500px;
+        height: 550px !important;
     }
 
     .quote-wrapper::before {
@@ -821,16 +835,46 @@ h5{
     }
 
     .text p {
-        font-size: 28px;
+        font-size: 30px !important;
     }
     
+    /* Contact */
+
     .contact-bg{
-        height: 65vh;
+        height:auto !important;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    /* NavBar */
+
+    .nav-link{
+        font-size: 30px;
+    }
+    .nav-name-font{
+        font-size: 60px;
+    }
+
+    /* Skills */
+
+    .home-icon-margin{
+        margin: 10px 20px 10px 20px !important;
+    }
+
+    /* About - Text Circle */
+    .quote-wrapper {
+        width: 900px !important;
+        height: 550px !important;
+    }
+
+    .quote-wrapper::before {
+        font-size: 0px;
+    }
+
+    .text p {
+        font-size: 31px !important;
+    }
     
 /* Contact */
 
@@ -841,6 +885,7 @@ h5{
     height: 300px;
     padding-top: 30px;
     margin: 0 !important;
+    margin-bottom: 50px !important;
 }
 .contact-text{
     font-size: 25px;
@@ -849,12 +894,20 @@ h5{
     font-size: 20px !important;
 }
 
-
-
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     
+    /* Skills */
+    .home-icon-margin{
+        margin: 10px 35px 10px 35px !important;
+    }
+
+    /* about  */
+    .text p {
+        font-size: 34px !important;
+    }
+
+
 }
