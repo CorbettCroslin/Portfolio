@@ -18,6 +18,7 @@ body{
     background-color: #000;
     margin: 0;
     padding: 0;
+    text-decoration: none !important;
 }
 html{
     scroll-behavior: smooth;
@@ -254,6 +255,10 @@ h1{
 
 /* skills */
 
+#skillsbg{
+    
+    z-index: 9999 !important;
+}
 
 .display-4{
     text-align: center;
@@ -294,7 +299,6 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100% ; */
     width: 100%;
 }
 
@@ -310,7 +314,8 @@ h1{
 #card-width4 {
     width: 342px !important;
     margin: 25px 15px 25px 15px !important;
-    height: 350px !important
+    height: 420px !important
+    
 }
 
 #card-img-top1, 
@@ -366,6 +371,14 @@ h5{
     font-family: 'Gemunu Libre', sans-serif;
     text-shadow: 2px 2px #000;
     color: #ff7676;
+}
+
+.projects-sources{
+    height: 60px !important;
+    color: rgb(0, 0, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

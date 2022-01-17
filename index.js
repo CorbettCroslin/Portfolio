@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(e){
     $win = $(window);
     $navbar = $('#header');
@@ -23,5 +25,6 @@ function toggle_onclick($win, $navbar, width){
         $navbar.css({left: '0px'});
     }
 }
+
 
 
