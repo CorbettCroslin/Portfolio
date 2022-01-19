@@ -275,10 +275,10 @@ h1{
     border-radius: .3rem !important;
 }
 
-.skills-sub{
+.skills-icons{
     display: flex;
     flex-wrap: wrap !important;
-    justify-content: center;
+    justify-content:center;
 }
 
 
