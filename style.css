@@ -42,6 +42,19 @@ h4{
     margin-bottom: 25px;
 }
 
+span img {
+ opacity: 0 !important;
+ border: 5px solid blue;
+} 
+
+.waubutton {
+    position: relative !important;
+    bottom: 1px !important;
+    left: 1px !important;
+    float: left;
+    margin-top: 50px;
+ 
+}
 
 /* global classes */
 
@@ -340,7 +353,7 @@ h1{
 }
 
 .cust-button{
-    background-color: #ff35dd;
+    background-color: #bb24a2;
     position: relative;
 }
 
@@ -349,12 +362,12 @@ h1{
 }
 
 .btn-live{
-    background-color: #ff35dd;
+    background-color: #bb24a2;
 }
 
 h5{
     font-size: 30px !important;
-    color: #ff35de;
+    color: #bb24a2;
     font-family:'Sarpanch', sans-serif;
     text-shadow: 2px 2px #444444d0;;
 }
@@ -561,7 +574,7 @@ h5{
     color: #3835ff;
 }
 .icon-text{
-    color:#ff35de;
+    color:#bb24a2;
 }
 
 
