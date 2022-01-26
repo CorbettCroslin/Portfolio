@@ -42,19 +42,18 @@ h4{
     margin-bottom: 25px;
 }
 
+/* Tracker */
 span img {
- opacity: 0 !important;
- border: 5px solid blue;
+    opacity: 0 !important;
 } 
-
-.waubutton {
-    position: relative !important;
-    bottom: 1px !important;
-    left: 1px !important;
-    float: left;
+.tracker {
+    bottom: 0 !important;
+    left: 0 ;
     margin-top: 50px;
- 
+
 }
+
+
 
 /* global classes */
 
