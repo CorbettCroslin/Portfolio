@@ -667,8 +667,8 @@ h5{
 
 
     .contact-blur-bg{
-        width: 360px !important;
-        height: 300px;
+        width: 350px !important;
+        height: 350px;
         padding-top: 30px;
         margin-bottom: 30px !important;
     }
@@ -682,6 +682,9 @@ h5{
     }
     .email-link-icon{
         display: none;
+    }
+    .resume-button{
+        margin-top: 8px;
     }
 
     /* Page Vector */
@@ -929,7 +932,7 @@ h5{
         font-size: 40px;
     }
     .nav-name-font{
-        font-size: 90px !important;
+        font-size: 75px !important;
     }
     #main-name{
         font-size: 60px !important;
