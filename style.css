@@ -44,12 +44,12 @@ h4{
 
 /* Tracker */
 span img {
-    opacity: 0 !important;
+    display: none!important;
 } 
 .tracker {
+    display: none;
     bottom: 0 !important;
     left: 0 ;
-    margin-top: 50px;
 
 }
 
@@ -396,6 +396,7 @@ h5{
 
 /* about */
 
+
 #about{
     padding: 0 !important;
 }
@@ -555,28 +556,36 @@ h5{
     border-width: 4px !important;
     border-style: solid;
     width: 600px !important;
-    height: 300px;
+    height: 375px !important;
     padding-top: 30px;
     margin: 0 !important;
 }
 .contact-text{
-    font-size: 25px;
+    font-size: 18px;
 }
 .emailfont{
     font-size: 18px;
-    z-index: 3 !important;
-    position: relative;
-}
-.emaillink{
     font-family:  'Press Start 2P', cursive;
     text-transform: bold !important;
-    color: #3835ff;
+    font-style: normal;
+    color: #5f5dc7;
+    margin-top: 30px !important;
 }
+
 .icon-text{
     color:#bb24a2;
 }
+.resume-button{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    height: 65px !important;
+    width: 175px !important;
+    font-size: 30px !important;
+}
 
-
+/* *****++++++*****++++++*****++++++*****++++++*****+++++*****+++++*****+++++*****+++++***** */
+/* +++++******+++++******+++++*****++++++*****++++++*****+++++*****+++++*****+++++*****+++++ */
+/* *****++++++*****++++++*****++++++*****++++++*****+++++*****+++++*****+++++*****+++++***** */
 
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -659,16 +668,19 @@ h5{
         height: 610px;
     }
     .text p {
-        font-size: 23px !important;
+        font-size: 24px !important;
         text-align: center;
     }
 
     /* contact */
 
+    #contactHiddenIcon{
+        display: none;
+    }
 
     .contact-blur-bg{
         width: 350px !important;
-        height: 350px;
+        height: 375px;
         padding-top: 30px;
         margin-bottom: 30px !important;
     }
@@ -684,8 +696,13 @@ h5{
         display: none;
     }
     .resume-button{
-        margin-top: 8px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        height: 60px !important;
+        width: 85px !important;
+        font-size: 16px !important;
     }
+    
 
     /* Page Vector */
 
@@ -776,11 +793,11 @@ h5{
 
     .quote-wrapper {
         width: 610px;
-        height: 360px;
+       
         
     }
     .text p {
-        font-size: 21px !important;
+        font-size: 26px !important;
         text-align: center;
     }
 
@@ -799,7 +816,7 @@ h5{
         text-shadow: 2px 2px #000;
     }
     .emailfont{
-        font-size: 13px !important;
+        font-size: 16px !important;
         text-shadow: 1px 1px #000;
     }
     .email-link-icon{
@@ -816,6 +833,13 @@ h5{
         padding-top: 30px;
         margin: 0 !important;
         margin-bottom: 50px !important;
+    }
+    .resume-button{
+        margin-top: 3px;
+        margin-bottom: 5px;
+        height: 75px !important;
+        width: 100px !important;
+        font-size: 20px !important;
     }
 
     /* Page Vector */
@@ -956,7 +980,11 @@ h5{
 
     /* about  */
     .text p {
-        font-size: 34px !important;
+        font-size: 37px !important;
+    }
+    .quote-wrapper {
+        width: 1100px !important;
+        height: 600px !important;
     }
 
         /* Contact */
@@ -964,17 +992,17 @@ h5{
     .contact-blur-bg{
         border-radius: 15%;
         border-width: 4px !important;
-        width: 600px !important;
+        width: 700px !important;
         height: 300px;
         padding-top: 30px;
         margin: 0 !important;
         margin-bottom: 50px !important;
     }
-    .contact-text{
+    .contact-text-size{
         font-size: 25px;
     }
     .emailfont{
-        font-size: 20px !important;
+        font-size: 23px !important;
     }
 
 }
